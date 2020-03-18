@@ -1,4 +1,4 @@
-# mypluralize
+# SMC UUID GENERATOR
 A Node.js module that returns random text of 128 digits of base 16 
 ## Installation 
 ```sh

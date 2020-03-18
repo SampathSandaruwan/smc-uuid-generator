@@ -1,7 +1,7 @@
 {
-  "name": "128-uuid-generator",
-  "version": "1.0.0",
-  "description": "128bit uuid generator",
+  "name": "smc-uuid-generator",
+  "version": "1.0.1",
+  "description": "128 digits uuid generator",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha --reporter spec",
