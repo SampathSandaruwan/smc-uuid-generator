@@ -1,6 +1,6 @@
 {
   "name": "smc-uuid-generator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "128 digits uuid generator",
   "main": "dist/index.js",
   "scripts": {
