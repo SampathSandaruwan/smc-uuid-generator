@@ -4,7 +4,7 @@
   "description": "128 digits uuid generator",
   "main": "dist/index.js",
   "scripts": {
-    "test": "mocha --reporter spec",
+    "test": "node dist/test",
     "build": "tsc"
   },
   "author": "Sampath Sandaruwan",

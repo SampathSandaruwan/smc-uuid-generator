@@ -11,12 +11,13 @@ var newUUID = require('smc-uuid-generator');
 var uuid = newUUID.generateUUID();
 ```
 ```sh
-Output should be 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' long uuid
+Output should be 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' long uuid (128 digits)
 ```
 ### TypeScript
 ```typescript
-import { generateUUID } from 'smc-uuid-generator';
-console.log(generateUUID());
+import generateUUID from 'smc-uuid-generator';
+
+const newUUID = generateUUID();
 ```
 ```sh
 Output should be 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' long uuid
