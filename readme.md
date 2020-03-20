@@ -23,13 +23,7 @@ const newUUID = generateUUID();
 ```sh
 Output should be 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' long uuid (base 16 - 128 digits)
 ```
-### AMD
-```javascript
-define(function(require,exports,module){
-  var newUUID = require('smc-uuid-generator');
-});
-```
-## Test 
+### Test 
 ```sh
 npm run test
 ```
