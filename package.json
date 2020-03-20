@@ -1,10 +1,10 @@
 {
   "name": "smc-uuid-generator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "128 digits uuid generator",
   "main": "dist/index.js",
   "scripts": {
-    "test": "node dist/test",
+    "test": "tsc && node dist/test",
     "build": "tsc"
   },
   "author": "Sampath Sandaruwan",
